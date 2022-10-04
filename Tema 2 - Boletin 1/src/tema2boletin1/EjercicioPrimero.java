@@ -10,7 +10,6 @@ public class EjercicioPrimero {
 		//Declaramos las variables que vamos a utilizar
 		
 		int num, resto;
-		boolean par;
 		Scanner lectura = new Scanner (System.in); //Iniciamos el scanner
 
 		//Solicitamos un número al usuario
@@ -23,15 +22,12 @@ public class EjercicioPrimero {
 		resto = num%2;
 		if (resto==0) {
 			
-			par =true;
+			System.out.println("El número introducido es par");
 			
 		} else {
-			par = false;
+			System.out.println("El número introducido es impar");
 		}
 		
-		//Mostramos el resultado al usuario
-		
-		System.out.println("¿El número introducido es par? " + par);
 	}
 		
 }
